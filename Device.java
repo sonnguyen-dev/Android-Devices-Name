@@ -28,6 +28,6 @@ public class Device
 
 	public String getDeviceName(String deviceSlashModel)
 	{
-		return devices.get(deviceSlashModel);
+		return devices.get(deviceSlashModel.toLowerCase());
 	}
 }
